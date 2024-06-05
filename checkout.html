@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoConnect - Checkout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>EcoConnect</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products/Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="checkout">
+        <h2>Checkout</h2>
+        <form action="#" method="post">
+            <h3>Shipping Information</h3>
+            <label for="shipping-name">Name:</label>
+            <input type="text" id="shipping-name" name="shipping-name" required>
+            <label for="shipping-address">Address:</label>
+            <input type="text" id="shipping-address" name="shipping-address" required>
+            <label for="shipping-city">City:</label>
+            <input type="text" id="shipping-city" name="shipping-city" required>
+            <label for="shipping-state">State:</label>
+            <input type="text" id="shipping-state" name="shipping-state" required>
+            <label for="shipping-zip">ZIP Code:</label>
+            <input type="text" id="shipping-zip" name="shipping-zip" required>
+
+            <h3>Payment Information</h3>
+            <label for="payment-card">Credit Card Number:</label>
+            <input type="text" id="payment-card" name="payment-card" required>
+            <label for="payment-expiration">Expiration Date:</label>
+            <input type="text" id="payment-expiration" name="payment-expiration" required>
+            <label for="payment-cvv">CVV:</label>
+            <input type="text" id="payment-cvv" name="payment-cvv" required>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 EcoConnect. All rights reserved.</p>
+    </footer>
+</body>
+</html>
